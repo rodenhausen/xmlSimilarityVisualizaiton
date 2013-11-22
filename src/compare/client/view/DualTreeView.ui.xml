@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:my="urn:import:compare.client.view">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<g:VerticalPanel>
+	<g:HorizontalPanel>
+	<g:RadioButton ui:field="radioButtonA" name="AorB" value="true">
+	</g:RadioButton>
+	<g:RadioButton ui:field="radioButtonB" name="AorB" value="false">
+	</g:RadioButton>
+	</g:HorizontalPanel>
+	<my:TreeViewImpl ui:field="treeView">
+	</my:TreeViewImpl>
+	</g:VerticalPanel>
+</ui:UiBinder> 
