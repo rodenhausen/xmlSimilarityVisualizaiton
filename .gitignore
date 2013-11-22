@@ -4,3 +4,21 @@
 .settings*
 /bin
 *.class
+
+
+# Package Files #
+*.war
+*.ear
+
+
+/war/xmlsimilarityvisualization
+
+/war/WEB-INF/deploy
+/gwt-unitCache
+/war/WEB-INF/classes
+
+/war/WEB-INF/lib/gwt-servlet.jar
+
+*.properties
+
+/bin/*
